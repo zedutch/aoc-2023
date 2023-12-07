@@ -7,13 +7,13 @@ fn main() {
 }
 
 fn part1() {
-    let input = include_str!("./day03");
+    let input = include_str!("./day03.in");
     let sum = run1(input);
     println!("{sum}");
 }
 
 fn part2() {
-    let input = include_str!("./day03");
+    let input = include_str!("./day03.in");
     let sum = run2(input);
     println!("{sum}");
 }

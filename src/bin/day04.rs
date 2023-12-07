@@ -5,7 +5,7 @@ fn main() {
 }
 
 fn part1() {
-    let input = include_str!("./day04");
+    let input = include_str!("./day04.in");
     let sum = run1(input);
     println!("{sum}");
 }
@@ -48,7 +48,7 @@ fn calc_card(card: &str) -> u32 {
 }
 
 fn part2() {
-    let input = include_str!("./day04");
+    let input = include_str!("./day04.in");
     let sum = run2(input);
     println!("{sum}");
 }

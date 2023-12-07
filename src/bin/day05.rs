@@ -8,7 +8,7 @@ fn main() {
     part2();
 }
 fn part1() {
-    let input = include_str!("./day05");
+    let input = include_str!("./day05.in");
     let result = run1(input);
     println!("{result}");
 }
@@ -36,7 +36,7 @@ fn run1(input: &str) -> u32 {
 }
 
 fn part2() {
-    let input = include_str!("./day05");
+    let input = include_str!("./day05.in");
     let result = run2(input);
     println!("{result}");
 }

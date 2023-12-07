@@ -5,13 +5,13 @@ fn main() {
 }
 
 fn part1() {
-    let input = include_str!("./day06");
+    let input = include_str!("./day06.in");
     let result = run1(input);
     println!("{result}");
 }
 
 fn part2() {
-    let input = include_str!("./day06");
+    let input = include_str!("./day06.in");
     let result = run2(input);
     println!("{result}");
 }

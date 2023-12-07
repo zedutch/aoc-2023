@@ -12,7 +12,7 @@ fn main() {
 }
 
 fn part1() {
-    let input = include_str!("./day02");
+    let input = include_str!("./day02.in");
     let sum = run1(
         input,
         Balls {
@@ -68,7 +68,7 @@ fn get_max(game: &str) -> Balls {
 }
 
 fn part2() {
-    let input = include_str!("./day02");
+    let input = include_str!("./day02.in");
     let sum = run2(input);
     println!("{sum}");
 }
